@@ -12,10 +12,12 @@ public class MyFirstTest {
         String actual = "Codeup";
 
         assertEquals("Codeup", actual);
+        assertNotEquals("CodeUp", actual);
+
     }
 
     @Test
-    public void testIfArraysAreDifferent() {
+    public void testIfListsAreDifferent() {
         List<String> languages = new ArrayList<>();
         List<String> moreLanguages = new ArrayList<>();
 
